@@ -1,0 +1,9 @@
+HBD Shemana 
+Problema
+Actualmente, las felicitaciones de cumpleaños digitales suelen sentirse genéricas, impersonales o repetitivas.  Por otro lado, crear una tarjeta o detalle digital verdaderamente personalizado requiere conocimientos de diseño gráfico, tiempo y el uso de herramientas complejas, lo que dificulta que cualquier persona pueda enviar un obsequio digital creativo, emotivo y adaptado a los gustos del festejado de manera rápida.
+
+Objetivo General
+Desarrollar una plataforma web accesible e intuitiva que permita a cualquier usuario diseñar, personalizar y compartir felicitaciones de cumpleaños digitales únicas e interactivas.
+
+Descripción del Proyecto
+Es una aplicación web interactiva diseñada para generar tarjetas y experiencias digitales de felicitación de cumpleaños completamente personalizadas en cuestión de minutos. A través de una interfaz intuitiva y guiada, el usuario puede ingresar el nombre del cumpleañero, redactar una dedicatoria, seleccionar plantillas visuales, elegir paletas de colores, agregar música de fondo, fotografías o elementos animados, y generar un enlace único para compartir la felicitación directamente por WhatsApp, correo electrónico o redes sociales, sin necesidad de instalar aplicaciones adicionales.
