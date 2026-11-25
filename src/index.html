@@ -662,6 +662,110 @@
         color: var(--text-main);
       }
 
+      .benefits-section {
+        width: 100%;
+        margin-top: 26px;
+        padding: 16px 14px 18px;
+        border: 2px solid rgba(255, 255, 255, 0.9);
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.76);
+        box-shadow: 0 8px 20px rgba(61, 44, 46, 0.08);
+      }
+
+      .benefits-banner {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 104px;
+        margin-bottom: 18px;
+        padding: 10px 12px;
+        border: 2px solid #ffffff;
+        border-radius: 18px;
+        background: linear-gradient(120deg, #fff0f5, #e8f6ff);
+      }
+
+      .benefits-banner svg {
+        width: 82px;
+        height: 82px;
+        flex: 0 0 82px;
+      }
+
+      .benefits-banner p {
+        margin: 0;
+        font-family: var(--font-display);
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: var(--ink);
+      }
+
+      .benefits-title {
+        margin: 0 0 7px;
+        font-family: var(--font-display);
+        font-size: 23px;
+        line-height: 1.2;
+        color: var(--ink);
+        text-align: center;
+      }
+
+      .benefits-intro {
+        margin: 0 2px 14px;
+        color: var(--text-muted);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.55;
+        text-align: center;
+      }
+
+      .benefits-list {
+        display: grid;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .benefit-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 11px;
+        border-radius: 15px;
+        background: #ffffff;
+        box-shadow: 0 3px 10px rgba(61, 44, 46, 0.06);
+      }
+
+      .benefit-number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        flex: 0 0 28px;
+        border-radius: 50%;
+        background: #ffe4ed;
+        color: #a72c50;
+        font-family: var(--font-display);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .benefit-item h3 {
+        margin: 0 0 2px;
+        font-family: var(--font-display);
+        font-size: 16px;
+        line-height: 1.25;
+        color: var(--ink);
+      }
+
+      .benefit-item p {
+        margin: 0;
+        color: var(--text-muted);
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1.45;
+      }
+
       .wavy-divider {
         display: flex;
         justify-content: center;
@@ -1096,6 +1200,51 @@
               </div>
             </div>
           </div>
+        </section>
+
+        <section class="benefits-section" aria-labelledby="benefits-title">
+          <div class="benefits-banner">
+            <svg viewBox="0 0 100 100" role="img" aria-label="Tarjeta de cumpleaños con regalo y confeti">
+              <path d="M16 40L49 22L83 40V82H16V40Z" fill="#FFFFFF" stroke="#3D2C2E" stroke-width="3" stroke-linejoin="round" />
+              <path d="M16 40L49 57L83 40" fill="#FFD1DF" stroke="#3D2C2E" stroke-width="3" stroke-linejoin="round" />
+              <path d="M40 43H59V62H40V43Z" fill="#FFE066" stroke="#3D2C2E" stroke-width="2.5" />
+              <path d="M49.5 43V62M40 49H59" stroke="#FF85A2" stroke-width="3" />
+              <path d="M49.5 43C39 41 39 34 44 35C47 35.5 49.5 39 49.5 43ZM49.5 43C60 41 60 34 55 35C52 35.5 49.5 39 49.5 43Z" fill="#FF85A2" stroke="#3D2C2E" stroke-width="2" />
+              <path d="M20 17L23 22M78 14L75 20M88 61L82 62M12 69L18 67" stroke="#6EC1E4" stroke-width="3" stroke-linecap="round" />
+              <path d="M31 12L33 17M68 26L71 22" stroke="#FF85A2" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <p>Un detalle hecho a tu manera puede alegrar todo su día.</p>
+          </div>
+
+          <h2 class="benefits-title" id="benefits-title">¿Por qué usar HBD Shemana?</h2>
+          <p class="benefits-intro">
+            Evita las felicitaciones genéricas: crea en pocos pasos un detalle digital más personal y especial,
+            sin necesitar experiencia en diseño.
+          </p>
+
+          <ul class="benefits-list">
+            <li class="benefit-item">
+              <span class="benefit-number" aria-hidden="true">01</span>
+              <div>
+                <h3>Personalización sencilla</h3>
+                <p>Elige un estilo y adapta tu felicitación para que refleje a esa persona especial.</p>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-number" aria-hidden="true">02</span>
+              <div>
+                <h3>Ahorra tiempo</h3>
+                <p>La experiencia guiada te ayuda a crear una tarjeta bonita en cuestión de minutos.</p>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-number" aria-hidden="true">03</span>
+              <div>
+                <h3>Comparte fácilmente</h3>
+                <p>Envía tu felicitación por WhatsApp, correo electrónico o redes sociales, sin instalar otra aplicación.</p>
+              </div>
+            </li>
+          </ul>
         </section>
       </div>
     </main>
